@@ -6,4 +6,9 @@ namespace WebApplication_mk306.Models
         public int TemperatureC { get; set; }
         public string? Summary { get; set; }
     }
+
+    public class DatabaseConfig
+    {
+        public string? DefaultConnection { get; set; }
+    }
 }
